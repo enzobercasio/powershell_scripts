@@ -13,7 +13,7 @@ param($list, $env)
 $logfilename = "D:\Scripts_Working_Area\AdUserCreate\Logs\aduserreset_" + (get-date).tostring("yyyy_MM_dd_HHmm") + ".txt"
 #Transcript
 $transcriptname = "D:\Scripts_Working_Area\AdUserCreate\Logs\adresettranscript_" + (get-date).tostring("yyyy_MM_dd_HHmm") + ".txt"
-$genericpasswd = "Starhub_123"
+$genericpasswd = "genericpassword"
 
 "Starting transcript..."
 start-transcript -path $transcriptname -noclobber
