@@ -22,10 +22,9 @@ start-transcript -path $transcriptname -noclobber
 #Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 
 #SMTP Details 
-$fromemail = "donotreply@starhub.com"
-#$bccmail = "lorenzosanchez.bercasio@starhub.com"
-$bccmail = "lorenzosanchez.bercasio@starhub.com", "jayar.e.gementiza@starhub.com"
-$server = "10.90.65.187" #enter your own SMTP server DNS name / IP address here
+
+$bccmail = "contact@enzobercasio.com", "mail@enzobercasio.com"
+$server = "xx.xx.xx.xx" #enter your own SMTP server DNS name / IP address here
 
 #shout out the parameter values provided.
 "Environment is " + $env
